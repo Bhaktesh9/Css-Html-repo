@@ -232,11 +232,12 @@ php -S localhost:8000
 
 ## 🔗 Links
 
-- **Live Demo**: [GitHub Pages](https://bhaktesh9.github.io/html-css-lab3/)
-- **Repository**: [GitHub](https://github.com/bhaktesh9/html-css-lab3)
+- **Live Demo**: [GitHub Pages](https://bhaktesh9.github.io/Css-Html-repo/)
+- **Repository**: [GitHub](https://github.com/bhaktesh9/Css-Html-repo)
 - **Docker Hub**: [bhaktesh9/html5-css3-site](https://hub.docker.com/r/bhaktesh9/html5-css3-site)
 
 **Author**: Bhaktesh Patel  
 **Course**: HTML5 + CSS3 + Docker Practical  
 **Date**: September 2025
+
 
