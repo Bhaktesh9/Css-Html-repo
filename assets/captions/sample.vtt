@@ -1,0 +1,198 @@
+WEBVTT
+
+NOTE
+Content Attribution: This tutorial content is adapted from W3Schools (https://www.w3schools.com)
+Used for educational purposes with proper attribution.
+
+1
+00:00:00.000 --> 00:00:03.000
+Hello! So you want to learn how to make websites.
+
+2
+00:00:03.000 --> 00:00:08.000
+In that case you need to learn HTML!
+
+3
+00:00:08.000 --> 00:00:10.000
+So let's start at the very beginning.
+
+4
+00:00:10.000 --> 00:00:13.000
+What exactly is HTML?
+
+5
+00:00:13.000 --> 00:00:15.000
+And why do I need it?
+
+6
+00:00:15.000 --> 00:00:19.000
+Let's break it down from the basics, and build our way up.
+
+7
+00:00:19.000 --> 00:00:23.000
+HTML stands for HyperText Markup Language.
+
+8
+00:00:23.000 --> 00:00:28.000
+It uses markup to describe the structure of web pages.
+
+9
+00:00:28.000 --> 00:00:32.000
+The structure is built up by elements, and they are represented by tags!
+
+10
+00:00:32.000 --> 00:00:37.000
+Tags label pieces of content such as "heading"
+
+11
+00:00:37.000 --> 00:00:42.000
+"paragraph" "table" and so on.
+
+12
+00:00:42.000 --> 00:00:44.000
+These tags aren't shown on the page,
+
+13
+00:00:44.000 --> 00:00:49.000
+but are used to display content in different ways.
+
+14
+00:00:49.000 --> 00:00:50.000
+That's a lot to digest!
+
+15
+00:00:50.000 --> 00:00:52.000
+So let's go into it.
+
+NOTE
+Simple HTML Example Walkthrough
+
+16
+00:00:52.000 --> 00:00:55.000
+First let's try it together.
+
+17
+00:00:55.000 --> 00:01:00.000
+Don't worry about understanding, it'll all click as we work through it.
+
+18
+00:01:00.000 --> 00:01:05.000
+We start by declaring that this is an HTML document.
+
+19
+00:01:05.000 --> 00:01:10.000
+The &lt;html&gt; is the root element of any HTML page.
+
+20
+00:01:10.000 --> 00:01:15.000
+The &lt;head&gt; contains meta information about the document.
+
+21
+00:01:15.000 --> 00:01:20.000
+The &lt;title&gt; element specifies a title for the document.
+
+22
+00:01:20.000 --> 00:01:24.000
+The &lt;body&gt; contains the visible page content.
+
+23
+00:01:24.000 --> 00:01:30.000
+Finally, the &lt;h1&gt; defines a large heading, while &lt;p&gt; defines a paragraph.
+
+24
+00:01:30.000 --> 00:01:33.000
+With everything set in the order, let's
+
+25
+00:01:33.000 --> 00:01:36.000
+go into the explanation of how tags work.
+
+NOTE
+HTML Tags
+
+26
+00:01:36.000 --> 00:01:39.000
+Tags typically come in pairs.
+
+27
+00:01:39.000 --> 00:01:43.000
+A start tag, and the end tag.
+
+28
+00:01:43.000 --> 00:01:46.000
+The end tag is written just like the start tag,
+
+29
+00:01:46.000 --> 00:01:50.000
+but with a forward slash inserted before the tag name.
+
+30
+00:01:50.000 --> 00:01:53.000
+Here we've got the tag name and the forward slash tag name.
+
+31
+00:01:53.000 --> 00:01:57.000
+And the contents of the element in between them.
+
+32
+00:01:57.000 --> 00:02:06.000
+So if this was a paragraph, we'd use &lt;p&gt; and &lt;/p&gt; and some text in the middle.
+
+33
+00:02:06.000 --> 00:02:07.000
+Let's play a game.
+
+34
+00:02:07.000 --> 00:02:23.000
+See if we can correctly match start, and end tags, together.
+
+NOTE
+How Web Browsers Work
+
+35
+00:02:23.000 --> 00:02:28.000
+So what turns HTML code and elements into a viewable website?
+
+36
+00:02:28.000 --> 00:02:30.000
+Well, that's where web browsers come in.
+
+37
+00:02:30.000 --> 00:02:34.000
+The purpose of a web browser, be it Chrome, Firefox, Edge,
+
+38
+00:02:34.000 --> 00:02:39.000
+or Safari, is to read HTML documents and display them.
+
+39
+00:02:39.000 --> 00:02:42.000
+But, the browser does not display the HTML code.
+
+40
+00:02:42.000 --> 00:02:47.000
+Instead, it uses it, to determine how to display the document.
+
+41
+00:02:47.000 --> 00:02:53.000
+Let's see what kind of building blocks are hidden behind this webpage.
+
+42
+00:02:53.000 --> 00:02:57.000
+This is a visualization of an HTML page structure.
+
+43
+00:02:57.000 --> 00:03:00.000
+You can see the HTML, the head, with the page title
+
+44
+00:03:00.000 --> 00:03:04.000
+below that, and then the body under that.
+
+45
+00:03:04.000 --> 00:03:06.000
+And that's the basics.
+
+46
+00:03:06.000 --> 00:03:09.000
+Let's delve into this further, but for now, take a break.

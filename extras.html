@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML5 Practical — Extras</title>
+    <meta name="description" content="Tables, details, dialog, progress, and meter examples.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://<username>.github.io/<repo-name>/extras.html">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <a href="#main" class="skip-link">Skip to content</a>
+
+    <header>
+        <div class="container">
+            <h1>Tables & Interactive Elements</h1>
+            <nav aria-label="Primary">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="extras.html" aria-current="page">Extras</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <main id="main">
+            <article>
+                <section class="card">
+                    <h2>Tabular Data</h2>
+                    <div style="overflow-x: auto;">
+                        <table>
+                            <caption>Weekly Study Plan</caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col">Week</th>
+                                    <th scope="col">Topic</th>
+                                    <th scope="col">Hours</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>HTML5 Semantics</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Advanced HTML5 APIs</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>CSS3 Styling</td>
+                                    <td>8</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td>Docker Containerization</td>
+                                    <td>4</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="2">Total</td>
+                                    <td>24</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </section>
+
+                <section class="card">
+                    <h2>Interactive Elements</h2>
+                    
+                    <details class="mb-4">
+                        <summary>Click to reveal more details</summary>
+                        <p>This is additional content that was hidden behind a details/summary element. This demonstrates HTML5's native disclosure widget functionality.</p>
+                    </details>
+
+                    <h3>Progress Indicators</h3>
+                    <p>Course completion: <progress value="75" max="100">75%</progress></p>
+                    <p>Skills assessment: <meter value="8" min="0" max="10">8 out of 10</meter></p>
+
+                    <h3>Form Elements Demo</h3>
+                    <p><strong>Sample form inputs (non-functional):</strong></p>
+                    <p>
+                        <label>Search: <input type="search" placeholder="Enter search terms..." /></label>
+                    </p>
+                    <p>
+                        <label>Date: <input type="date" /></label>
+                    </p>
+                    <p>
+                        <label>Color: <input type="color" value="#3b82f6" /></label>
+                    </p>
+                </section>
+
+                <footer>
+                    <p>Return to <a href="index.html">Home</a>.</p>
+                </footer>
+            </article>
+        </main>
+
+        <footer>
+            <p>&copy; <time datetime="2025">2025</time> Bhaktesh Patel</p>
+        </footer>
+    </div>
+</body>
+</html>

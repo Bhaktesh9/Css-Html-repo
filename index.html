@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML5 Practical — Home</title>
+
+        content="A pure-HTML5 site demonstrating modern semantic elements, media, and accessibility.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://bhaktesh9.github.io/New-respository/">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <a href="#main" class="skip-link">Skip to content</a>
+
+    <header>
+        <div class="container">
+            <h1>HTML5 Practical</h1>
+            <nav aria-label="Primary">
+                <ul>
+                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="extras.html">Extras</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <main id="main">
+            <article>
+                <section class="card">
+                    <h3>🎯 Why HTML5 Semantics Matter</h3>
+                    <p>Semantic HTML isn't just about clean code—it's about creating inclusive web experiences. When we use elements like <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;nav&gt;</code>, we're building landmarks that assist screen readers and improve SEO.</p>
+                    <p><strong>Key Benefits:</strong></p>
+                    <ul>
+                        <li><strong>Accessibility:</strong> Screen readers can navigate content efficiently</li>
+                        <li><strong>SEO:</strong> Search engines understand your content structure better</li>
+                        <li><strong>Maintainability:</strong> Code becomes self-documenting and easier to modify</li>
+                        <li><strong>Future-proof:</strong> Semantic markup works across all devices and assistive technologies</li>
+                    </ul>
+                </section>
+
+                <section class="card">
+                    <h3>🔗 Interactive Navigation</h3>
+                    <p>This site demonstrates smooth internal navigation and progressive enhancement. Try jumping to different sections:</p>
+                    <nav aria-label="Page sections">
+                        <ul style="list-style: none; padding: 0; display: flex; gap: 1rem; flex-wrap: wrap;">
+                            <li><a href="#more-info" class="btn btn-secondary">📚 More Info</a></li>
+                            <li><a href="#technologies" class="btn btn-secondary">💻 Technologies</a></li>
+                            <li><a href="#features" class="btn btn-secondary">✨ Features</a></li>
+                        </ul>
+                    </nav>
+                </section>
+
+                <section id="technologies" class="card">
+                    <h3>💻 Technologies Showcased</h3>
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <h4>HTML5</h4>
+                            <p>Semantic elements, microdata, and modern APIs</p>
+                        </div>
+                        <div class="tech-item">
+                            <h4>CSS3</h4>
+                            <p>Grid, Flexbox, custom properties, and animations</p>
+                        </div>
+                        <div class="tech-item">
+                            <h4>Responsive Design</h4>
+                            <p>Mobile-first approach with fluid layouts</p>
+                        </div>
+                        <div class="tech-item">
+                            <h4>Accessibility</h4>
+                            <p>WCAG AA compliance and inclusive design</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="features" class="card">
+                    <h3>✨ Key Features</h3>
+                    <div class="feature-list">
+                        <div class="feature-item">
+                            <span class="feature-icon">🎨</span>
+                            <div>
+                                <h4>Modern Design System</h4>
+                                <p>Consistent colors, typography, and spacing using CSS custom properties</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">📱</span>
+                            <div>
+                                <h4>Fully Responsive</h4>
+                                <p>Optimized for mobile, tablet, and desktop viewing experiences</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">♿</span>
+                            <div>
+                                <h4>Accessibility First</h4>
+                                <p>Skip links, proper focus management, and screen reader support</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">🚀</span>
+                            <div>
+                                <h4>Performance Optimized</h4>
+                                <p>Lightweight CSS, efficient selectors, and optimized images</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="card">
+                    <h3>Internal Anchors</h3>
+                    <p>Jump to the <a href="#more-info">More Info</a> section on this page.</p>
+                </section>
+
+                <section id="more-info" class="card">
+                    <h3>More Info</h3>
+                    <p>Sample output: <samp>Build successful.</samp></p>
+                    <p>Acronyms: <abbr title="World Wide Web Consortium">W3C</abbr></p>
+                    <blockquote cite="https://www.w3.org/">
+                        “Web for All. Web on Everything.”
+                        <footer>— <cite>W3C</cite></footer>
+                    </blockquote>
+                </section>
+            </article>
+            <details class="mb-4">
+                        <summary><strong>CSS Architecture</strong></summary>
+                        <p>The stylesheet uses a modular approach with design tokens, utility classes, and component-based styling. All colors, spacing, and typography use CSS custom properties for consistency and easy theming.</p>
+                        <p>Sample output from build process: <samp>✓ CSS compiled successfully (47.2 KB)</samp></p>
+                    </details>
+                    
+                    <details class="mb-4">
+                        <summary><strong>Accessibility Features</strong></summary>
+                        <p>Every interactive element has proper focus states, color contrast meets WCAG AA standards, and the site works perfectly with keyboard navigation and screen readers.</p>
+                    </details>
+                    
+                    <p><strong>Web Standards:</strong> Built with <abbr title="World Wide Web Consortium">W3C</abbr> approved HTML5 and CSS3 specifications.</p>
+                    
+                    <blockquote cite="https://www.w3.org/">
+                        <p>"The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect."</p>
+                        <footer>— <cite>Tim Berners-Lee, W3C Director and inventor of the World Wide Web</cite></footer>
+                    </blockquote>
+                    
+                    <p class="mt-4">
+                        <a href="https://www.w3.org/WAI/" class="btn btn-primary">Learn More About Web Accessibility</a>
+                    </p>
+                </section>iption"
+        </main>
+        
+
+        <footer>
+            <p>&copy; <time datetime="2025">2025</time> Bhaktesh Patel</p>
+        </footer>
+    </div>
+</body>
+
+</html>

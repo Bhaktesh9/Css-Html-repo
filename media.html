@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML5 Practical — Media</title>
+    <meta name="description" content="Responsive images, audio, and video with captions.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://<username>.github.io/<repo-name>/media.html">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <a href="#main" class="skip-link">Skip to content</a>
+
+    <header>
+        <div class="container">
+            <h1>Media Demonstrations</h1>
+            <nav aria-label="Primary">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="media.html" aria-current="page">Media</a></li>
+                    <li><a href="extras.html">Extras</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <main id="main">
+            <article>
+                <section class="card">
+                    <h2>Responsive Image</h2>
+                    <figure>
+                        <picture>
+                            <source srcset="assets/images/hero-large.jpg" media="(min-width: 1000px)">
+                            <source srcset="assets/images/hero-medium.jpg" media="(min-width: 600px)">
+                            <img src="assets/images/hero-sample.jpg" alt="A descriptive view of the campus innovation hub">
+                        </picture>
+                        <figcaption>Responsive image using the <code>&lt;picture&gt;</code> element.</figcaption>
+                    </figure>
+                </section>
+
+
+                <section class="card">
+                    <h2>Audio</h2>
+                    <div class="audio-wrapper">
+                        <h3>Sample Audio Track</h3>
+                        <audio controls>
+                            <source src="assets/audio/sample.mp3" type="audio/mpeg">
+                            <p>Your browser does not support the audio element. <a href="assets/audio/sample.mp3">Download the audio file</a> instead.</p>
+                        </audio>
+                    </div>
+                </section>
+
+
+                <section class="card">
+                    <h2>Video with Captions</h2>
+                    <video controls width="640" poster="assets/images/hero-medium.jpg">
+                        <source src="assets/video/sample.mp4" type="video/mp4">
+                        <source src="assets/video/sample.webm" type="video/webm">
+                        <track src="assets/captions/sample.vtt" kind="captions" srclang="en" label="English" default>
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    <p class="attribution"><small>Tutorial content adapted from <a href="https://www.w3schools.com" target="_blank" rel="noopener">W3Schools</a> for educational purposes.</small></p>
+                </section>
+
+
+                <footer>
+                    <p>Back to <a href="index.html">Home</a>.</p>
+                </footer>
+            </article>
+        </main>
+
+
+        <footer>
+            <p>&copy; <time datetime="2025">2025</time> Bhaktesh Patel</p>
+        </footer>
+    </div>
+</body>
+
+</html>
